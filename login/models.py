@@ -7,3 +7,8 @@ class User(models.Model):
     date_joined = models.DateField(auto_now_add=True)
     class Meta:
         db_table = 'user_info'
+    def find(self,name):
+        user=User.objects.get(username=name)
+        return user
+
+
