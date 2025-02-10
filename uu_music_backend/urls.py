@@ -19,12 +19,14 @@ from django.urls import path,include
 from django.shortcuts import HttpResponse
 
 
-def test(resquest):
-    return HttpResponse("test")
+def test(request):
+    name=request.GET.get("pwd",'Defaltname')
+    print(name)
+    print(request)
+    return HttpResponse("<h1>test</h1>")
 
 
 urlpatterns = [
-    # path("admin/", admin.site.urls),
-    # path("login/",include("login.urls")),
+    path("login/",include("login.urls")),
     path("test/",test)
 ]
