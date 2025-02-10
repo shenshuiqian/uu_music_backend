@@ -1,6 +1,6 @@
 ### 前端地址
 ```
-https://github.com/youxiandeduguo/uu_music.git
+https://github.com/youxiandeduguo/uu_music
 ```
 ### 数据库配置：
 
