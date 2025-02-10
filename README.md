@@ -1,3 +1,7 @@
+### 前端地址
+```
+https://github.com/youxiandeduguo/uu_music.git
+```
 ### 数据库配置：
 
 （1）在MySQL中创建数据库
